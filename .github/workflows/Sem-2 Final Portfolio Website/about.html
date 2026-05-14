@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Sukhmanjot Singh</title>
+  <meta name="description" content="About Sukhmanjot Singh — Creative Visual Designer, Motion Graphics Artist, VFX Artist based in Punjab, India." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="scroll-progress"></div>
+<div id="loader">
+  <div class="loader-logo">S<span>.</span>Singh</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAVBAR -->
+<nav id="mainNav" class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand nav-brand" href="index.html">S<span>.</span>Singh</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="padding-top:120px;">
+  <div class="page-hero-bg" style="background-image:url('https://picsum.photos/1920/800?random=30');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="container page-hero-content">
+    <div class="page-hero-title">About <span>Me</span></div>
+    <div class="breadcrumb-custom">
+      <span><a href="index.html" style="color:var(--gray-400)">Home</a></span>
+      <span class="sep">/</span>
+      <span style="color:var(--white)">About</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE SECTION -->
+<section class="section-pad" style="background:var(--bg-primary);">
+  <div class="container z2">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="profile-img-wrap" style="padding:12px 0 12px 12px;">
+          <div class="profile-img-frame"></div>
+          <img src="https://picsum.photos/600/720?random=40" alt="Sukhmanjot Singh" />
+          <div class="profile-img-badge">
+            Creative<br />Designer<br /><span style="color:rgba(255,255,255,0.7);font-size:0.7rem;">Since 2023</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" data-aos="fade-left">
+        <span class="section-label">Introduction</span>
+        <h2 class="section-title">Sukhmanjot <span>Singh</span></h2>
+        <div class="divider"></div>
+        <p class="bio-text">
+          I'm a passionate multidisciplinary creative designer based in Punjab, India. My world revolves around crafting visually compelling stories — from sleek brand identities to cinematic video edits and immersive motion graphics.
+        </p>
+        <p class="bio-text">
+          With a deep command of Adobe's creative ecosystem and a cinematic aesthetic sensibility, I approach every project with the same intensity a film director brings to a frame — every element intentional, every detail purposeful.
+        </p>
+        <p class="bio-text">
+          Whether it's a brand logo, a motion reel, or a full VFX sequence, my goal is the same: to make people feel something.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Graphics Design</span>
+          <span class="tag">Motion Graphics</span>
+          <span class="tag">2D Animation</span>
+          <span class="tag">Video Editing</span>
+          <span class="tag">VFX</span>
+          <span class="tag">Adobe Suite</span>
+        </div>
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="contact.html" class="btn-red"><span>Hire Me</span> <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="btn-outline"><i class="fa-solid fa-download"></i> Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFICATIONS -->
+<section class="section-pad" style="background:var(--bg-secondary);">
+  <div class="container z2">
+    <div class="row mb-5">
+      <div class="col-12 text-center" data-aos="fade-up">
+        <span class="section-label">Credentials</span>
+        <h2 class="section-title">My <span>Qualifications</span></h2>
+        <div class="divider mx-auto"></div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="qual-card">
+          <div class="qual-title"><i class="fa-solid fa-graduation-cap text-red me-2"></i> Academic Qualification</div>
+          <div class="qual-item">
+            <span class="qual-key">Level</span>
+            <span class="qual-val">12th Standard (Senior Secondary)</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Percentage</span>
+            <span class="qual-val" style="color:var(--red)">60%</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Board</span>
+            <span class="qual-val">Punjab School Education Board</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Status</span>
+            <span class="qual-val">Passed</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="80">
+        <div class="qual-card">
+          <div class="qual-title"><i class="fa-solid fa-laptop-code text-red me-2"></i> Technical Qualification</div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe Illustrator</span>
+            <span class="qual-val">Advanced</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe Photoshop</span>
+            <span class="qual-val">Advanced</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe After Effects</span>
+            <span class="qual-val">Proficient</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe Premiere Pro</span>
+            <span class="qual-val">Proficient</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe Animate</span>
+            <span class="qual-val">Intermediate</span>
+          </div>
+          <div class="qual-item">
+            <span class="qual-key">Adobe InDesign</span>
+            <span class="qual-val">Intermediate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE TIMELINE -->
+<section class="section-pad" style="background:var(--bg-primary);">
+  <div class="container z2">
+    <div class="row">
+      <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Creative <span>Journey</span></h2>
+        <div class="divider"></div>
+        <div class="timeline mt-4">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2026</div>
+            <div class="timeline-title">Freelance Logo Designer</div>
+            <p class="timeline-desc">Designed a complete brand identity including primary logo, variations, color palette, and brand guidelines for ABCD Brand — a commercial client project executed independently.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2024 – 2025</div>
+            <div class="timeline-title">Creative Practice & Skill Building</div>
+            <p class="timeline-desc">Intensive self-directed learning and project execution across graphics design, motion graphics, 2D animation, VFX compositing, and video editing using the full Adobe suite.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2023</div>
+            <div class="timeline-title">Started Creative Journey</div>
+            <p class="timeline-desc">Began exploring digital design and visual storytelling — fell in love with Adobe tools and the art of motion design. The spark that ignited a creative career.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <span class="section-label">Honours</span>
+        <h2 class="section-title">Awards &amp; <span>Recognition</span></h2>
+        <div class="divider"></div>
+        <div class="timeline mt-4">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2025</div>
+            <div class="timeline-title">Emerging Graphics Designer Award</div>
+            <p class="timeline-desc">Awarded for exceptional talent, rapid skill development, and outstanding visual work that stood apart from peers in the field of graphic design.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-year">2024</div>
+            <div class="timeline-title">Best Student Award</div>
+            <p class="timeline-desc">Recognized for exemplary academic dedication, creative excellence, and inspirational work ethic that set a benchmark for fellow students.</p>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="counter-grid mt-4">
+          <div class="counter-card">
+            <div class="counter-num"><span data-count="10">0</span>+</div>
+            <div class="counter-label">Projects</div>
+          </div>
+          <div class="counter-card">
+            <div class="counter-num"><span data-count="5">0</span>+</div>
+            <div class="counter-label">Clients</div>
+          </div>
+          <div class="counter-card">
+            <div class="counter-num"><span data-count="2">0</span></div>
+            <div class="counter-label">Awards</div>
+          </div>
+          <div class="counter-card">
+            <div class="counter-num"><span data-count="6">0</span></div>
+            <div class="counter-label">Adobe Tools</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS BRIEF -->
+<section class="skills-section section-pad">
+  <div class="container z2">
+    <div class="row mb-5">
+      <div class="col-12 text-center" data-aos="fade-up">
+        <span class="section-label">Capabilities</span>
+        <h2 class="section-title">Core <span>Skills</span></h2>
+        <div class="divider mx-auto"></div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <div class="skill-name">Graphics Design</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="92%"></div></div>
+          <div class="skill-pct">92%</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="60">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-film"></i></div>
+          <div class="skill-name">Motion Graphics</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="88%"></div></div>
+          <div class="skill-pct">88%</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="120">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-scissors"></i></div>
+          <div class="skill-name">Video Editing</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="90%"></div></div>
+          <div class="skill-pct">90%</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div class="skill-name">VFX</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="82%"></div></div>
+          <div class="skill-pct">82%</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="60">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-play"></i></div>
+          <div class="skill-name">2D Animation</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="85%"></div></div>
+          <div class="skill-pct">85%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section section-pad">
+  <div class="container z2 text-center">
+    <div data-aos="fade-up">
+      <span class="section-label d-inline-block mb-3">Open for projects</span>
+      <div class="cta-title">Ready to <span>Collaborate?</span></div>
+      <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+        <a href="contact.html" class="btn-red"><span>Get In Touch</span> <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="portfolio.html" class="btn-outline">View My Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container z2">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">S<span>.</span>Singh</div>
+        <p class="footer-desc">Creative Visual Designer crafting cinematic visuals, motion graphics, and immersive experiences.</p>
+        <div class="footer-social mt-3">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <div class="footer-heading">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="#">Graphics Design</a></li>
+          <li><a href="#">Motion Graphics</a></li>
+          <li><a href="#">Video Editing</a></li>
+          <li><a href="#">VFX</a></li>
+          <li><a href="#">2D Animation</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="footer-heading">Get In Touch</div>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@sukhmanjot.com">hello@sukhmanjot.com</a></li>
+          <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+          <li><a href="#">Punjab, India</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Sukhmanjot Singh. All rights reserved.</span>
+      <span>Designed &amp; Built with <span style="color:var(--red)">♥</span></span>
+    </div>
+  </div>
+</footer>
+
+<button id="scrollTop" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
